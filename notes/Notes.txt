@@ -1,0 +1,88 @@
+Selenium Review Class:
+
+What are libraries predefined methods that help us with coding
+
+ 1)get()
+ 2)navigate()
+ 3)quit() quit everything
+ 4)close() will close current website
+ 5)Maximize and full screen
+
+Basics concepts
+HTML:Is a language that has a particular structure, and we can design the front end of any application
+use W3school for HTML
+<2>,<1> these are tags and each tag has they on
+ purpose of <div is to divide the page in different sections
+
+ Locators: to locate the elements and everything on the webpage is an element,why do we need to have access to elements
+ and perform actions we find elements using different locators
+
+ Xpath:
+
+
+ <html>
+ <body>
+                     <h1>hello<h1>
+                     <h1>
+                         <p1>well though<p1>
+
+                     <h1>
+                     <h1>hiwert<h1>
+                     <h1>hiwerrt<h1>
+                     <h1>hiwetwet<h1>
+
+ <body>
+ <html>
+
+ /html/body/h1[]/p1
+
+
+ /html/body/h1[]
+
+
+
+
+ /html/body/h1
+
+ /html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[2]/div[2]/input absolute Xpath Example
+
+ Relative xpath:
+
+ we can use start with
+ in the xpath
+ //tagname[start-with(@attribute="starting of the attribute value")]
+ //input[start-with(@id,"user")]
+ Example
+ <input id="imageno.1"/>
+ //input[start-with(@id,"imageno")]
+
+ contains:
+
+ //tagname[contains(@id,'some portion of value')];
+ Example:
+ <input id+"imageno.1"/>
+ //input[contains(@id,"imageno")]
+
+ hey dom
+ bring us the tag "input" -->//input
+ who has an attribute id  -->[@id]
+ and its value is userName -->[@id= 'username']
+
+ by text:
+  //tagName[text(
+
+
+  CSS selector:
+  tagname[attribute= "attribute value"]
+
+  shortcuts:
+  id = #
+  <input @id= "rotwiller"/>
+  input#rotwiller
+
+  class = .
+
+  <input @id= "rotwiller" @class="bigdogs"/>
+  input.bigdogs
+
+

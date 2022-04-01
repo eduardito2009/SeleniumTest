@@ -1,0 +1,44 @@
+Handle check Boxes or radio buttons: we can just click on them
+Class 6
+Alerts:
+Alert is a pop up message.Alert takes a complete focus of our main page that we are working on
+
+We cannot proceed until it is handled
+
+3 Types of Alerts:
+1) web based alerts/html alert we can simply inspect and perform need actions
+2) Javascript alerts/browser alerts-we can handle these alerts by using switch to method
+                                    we cannot inspect Java Script alerts
+
+3) Windows based alerts-->we cannot handle with Selenium
+
+Types of JS alerts
+  1) Simple alert--> Only click ok
+  2) Confirmation alert-->either cancel or click ok
+  3) Prompt alert-->enter the text and then click ok or cancel
+
+To handle Javascript alert we only have 4 methods:
+  1.- accept ()--> click ok
+  2.- dismiss()--> click cancel
+  3.- getText()--> always get text by using this method
+  4.- sendKeys()-->
+
+To handled authentication alerts we need to pass username and password in the URL
+"http://admin:admin@the-internet.herokuapp.com/basic_auth"
+//username:password@
+
+Frames:
+Frame is a separate and independent window in our webpage
+Frame allow developers to represent multiple views in one page
+
+3 ways to interact with Frames:
+   1)by index
+   2)by name or id
+   3)by WebElement
+
+In alerts--> we switch to alert and switch automatically back
+In Frames--> we switch to a frame manually and switch manually back to the main page
+
+Interview question:
+How do you handle alerts in Selenium?
+We handle Alerts by using Alert interface

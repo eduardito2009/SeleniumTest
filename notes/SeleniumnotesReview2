@@ -1,0 +1,34 @@
+<form t="19048 aa">
+    <div text = "mydiv">
+        <label name="myid"/>
+        <input t="ad 123 34"/>
+        <label name="id"/>
+        <input t="ad 123 34"/>
+      <div>
+    </form>
+
+    advance xpath:
+    get to the nearest sibling, parent or ancestor first and then have access to the desired tag
+     Advanced xpath
+    //label[@name="myid"]/following-sibling::input
+    hey get me a tag with name "label" whose attribute "name" has value "myid" and then get me its following-sibling which is input
+
+    preceding-sibling:
+    the sibling that is above.
+    //input[@id = 'calFromDate']/preceding-sibling::label
+
+    parent:
+    //label[text()="Enter message"]/parent::div
+    Hey get me the tag "label" with the text "Enter message" and then get me its parent "div"
+    ancestor:
+    //label[text()+"Enter message"]/ancestor::form
+    hey get me the tag with name "label" with the text "Enter message" and then get me its ancestor "form"
+    ====================================================================================================================
+    driver.findElement(By.xpath//css/name/id/tag/etc(" "));
+
+    =======================================Radio Buttons==========================
+
+
+
+Drop downs
+Whenever we have drop downs that are made using select class we can use select class in selenium
