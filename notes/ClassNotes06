@@ -39,6 +39,7 @@ Frame allow developers to represent multiple views in one page
 In alerts--> we switch to alert and switch automatically back
 In Frames--> we switch to a frame manually and switch manually back to the main page
 
+
 Interview question:
 How do you handle alerts in Selenium?
 We handle Alerts by using Alert interface

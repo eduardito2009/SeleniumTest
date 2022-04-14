@@ -1,0 +1,44 @@
+Selenium Class 8:
+3 types of selenium wait interview question
+Implicit wait:
+will be applied for findElement method
+
+Explicit wait or WebDriver wait:
+Is used to tell the webdriver to wait for a certain condition before throwing an exception for a specified condition
+
+
+Explicit wait works with ExpectedConditions class and waits until certain conditions are met or the given time is
+achieve
+
+*sign in xpath is a wild card which can identify any tagname
+//*[contains(text(), 'Welcome')]
+
+Fluent wait--> global wait
+It is used to tell the webdriver to wait for certain condition as well as its frequency before throwing an
+exception
+
+
+
+
+WebTables:
+WebTables are elements on the webpage, which are constructed by having rows and columns
+
+Types of Webtable:
+  1) static webtable
+  2) Dynamic webtable
+
+WebTables consist of different sections or parts
+<table>
+    <thead>
+            <tr>
+                <th></th>--> column data or heading
+            </tr
+
+    </thead>
+    <tbody>
+             <tr>
+                 <td></td>-- table data
+             </tr>
+        </tbody>
+    <table>
+
