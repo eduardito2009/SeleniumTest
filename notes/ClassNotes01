@@ -1,10 +1,11 @@
 Selenium class 1
 
 What is software testing?
+
 -- identify the correctness and quality of the application
 
 How many ways can we actually test?
---manual
+--manual is step by step procedure using jira
 --automation
 
 When do we go for automation
@@ -15,23 +16,24 @@ What automation tools do we know about?
 --Selenium is the most popular,TestNG,Cucumber,Katalon Studio, UFT/QTP
 
 Level of testing
---Unit testing
+--Unit testing Developers perform Unit testing
 --Integration testing
---Acceptance testing
---System testing
+--Acceptance testing Client test at the end
+--System testing Managers or high level people in the company
 
 Types of testing?
 --Functional testing
 performing to see the functionality of any app we are working on
 --NON- Functional testing
-  1) Performance testing
+  1) Performance testing: We are looking for how the system works under specific work flows, behavior or stability
+  of the application
   2)Security Testing: we test how your system is behaving when someone try to hack your system
 
   What is selenium?
   --Is a set of tools which help us to automate web applications is manly use to perform functional testing
 
   Selenium components:
-   1)Selenium -->Integrated development environment
+   1)Selenium -->Integrated development environment(IDE)
    2)Selenium Grid -->Firefox plugin
    3)Selenium -->Webdriver
    4)Selenium RC --> Remote control

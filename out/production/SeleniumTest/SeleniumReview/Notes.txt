@@ -1,0 +1,31 @@
+POM ( Page Object Model).-
+Why we use POM?
+  >POM let you work on a group in the same project
+
+   > Util Package
+     CommonMethods Class we have these methods
+      -screenshot
+      -sendText()
+      -clear()
+      -iframeswitch()
+      -waits
+
+    >Test Base
+     baseClass we should have these methods
+      - Navigate to specific URL(open Browser)
+      - close the browser
+    >Pages Or pageFactory
+     -loginPage
+     -DashBoardPage
+     -addEmployeePage
+    >test
+     Classes
+      - loginPageTest
+      - DashBoardTest
+      Extends between class
+      CommonMethods extends baseClass because we are declaring a driver on base class
+      Pages extends CommonMethods
+      test does not extend any class
+      Instead of driver
+      @FindBy
+                                -
